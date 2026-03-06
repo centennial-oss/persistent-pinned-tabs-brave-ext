@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persistent Pinned Tabs - Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Persistent Pinned Tabs</h1>
+      <p class="subtitle">Manage your persistently-pinned tabs</p>
+    </header>
+
+    <section class="section">
+      <h2>Pinned Tabs</h2>
+      <p class="hint">Edit URLs, reorder by dragging, or remove pins. Changes save automatically.</p>
+
+      <div class="add-row">
+        <input type="url" id="new-url" placeholder="https://example.com" />
+        <button id="add-pin" class="btn btn-primary">Add Pin</button>
+      </div>
+
+      <ul class="pins-list" id="pins-list"></ul>
+
+      <div class="empty-state" id="empty-state">
+        No pins yet. Add one above or right click on a Brower Tab and choose "Pin".
+      </div>
+    </section>
+
+    <footer class="source-link">
+      <a href="https://github.com/centennial-oss/persistent-pinned-tabs-brave-ext" target="_blank" rel="noopener">Extension Source Code on GitHub</a>
+    </footer>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

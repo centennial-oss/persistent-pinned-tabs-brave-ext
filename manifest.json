@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Persistent Pinned Tabs for Brave",
+  "version": "1.0.0",
+  "description": "For Brave Browser. True pinned tabs that persist across sessions and windows. Persistent tabs are per-profile, synced across all non-incognito windows.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Persistent Pinned Tabs for Brave",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Persistent Pinned Tabs for Brave",
   "version": "1.0.0",
-  "description": "For Brave Browser. True pinned tabs that persist across sessions and windows. Persistent tabs are per-profile, synced across all non-incognito windows.",
+  "description": "For Brave Browser. True pinned tabs that persist across sessions and non-icognito windows.",
   "permissions": [
     "storage",
     "tabs",
